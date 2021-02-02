@@ -1,0 +1,44 @@
+Hacer un workspace nuevo en java con las siguietnes tareas
+
+1) crear el workspacer con eclipse
+
+2) crear el repositorio local de dicho workspace
+
+3) Crear la clase Videojuego con los siguientes atributos
+	id
+	nombre
+	compañia
+
+	Realizar tambien estructura javaBean o pojo con getters y setter
+4) Versionar los cambios hechos
+
+5) Crear la clase Mascota con los siguientes atributos
+	id
+	nombre
+	color
+	
+6) versionar los cambios
+
+7) modificar la clase Mascote y add los getter y los setter
+
+8) versionar los cambios
+
+9) Crear el metodo toString para ambas clases
+
+10) versionar cambios
+
+11) Crear constructores con todos los parametros para las dos clases
+
+12) Versionar los cambios
+
+13) Moverse al commit cuando se creo la mascota (paso 5) y ver como 
+estaba el proyecto en ese momento
+
+14) volver a la rama master otra vez
+
+15) crear una clase con un metodo main, crear 2 videojuegos y crear
+dos mascotas. Mostrar los valores por pantalla
+
+16) versionar
+
+	
