@@ -7,3 +7,6 @@ entraña
 lechuga
 tomate
 cebolla
+pepino
+rabano
+zanahoria
