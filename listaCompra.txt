@@ -4,3 +4,6 @@ panceta
 chorizos criollos
 chuletas de cerdo
 entraña
+lechuga
+tomate
+cebolla
