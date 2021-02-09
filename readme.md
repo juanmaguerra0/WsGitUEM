@@ -70,8 +70,8 @@ Podemos crear ramas con el comando -> git checkout -b nombre_rama
 fusion, y luego ejecutar el comando -> git merge rama_a_fusionar
 por ejemplo, podemos ir a master y ejecutar git merge videojuegos
 
-Cuando fusionarmos ramas puede haber conflictos en caso de que varias personas
-hayan estado trabajando con los mismos ficheros.
+Cuando fusionarmos ramas puede haber conflictos en caso de que varias 
+personas hayan estado trabajando con los mismos ficheros.
 
 14) para borrar una rama (es  un puntero o una referencia) se ejecuta
 el comando -> git branch -d nombre_rama
