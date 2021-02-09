@@ -66,8 +66,8 @@ Podemos crear ramas con el comando -> git checkout -b nombre_rama
 	actual en la que hemos creado. Siempre que hagamos un commit avanza
 	el puntero de la rama con la que estamos trabajando y el puntero HEAD
 
-13) podemos fusionar ramas ýendonos a la rama donde queremos hacer la
-fusion con el comando -> git merge rama_a_fusionar
+13) Podemos fusionar ramas ýendonos a la rama donde queremos hacer la
+fusion, y luego ejecutar el comando -> git merge rama_a_fusionar
 por ejemplo, podemos ir a master y ejecutar git merge videojuegos
 
 Cuando fusionarmos ramas puede haber conflictos en caso de que varias personas
