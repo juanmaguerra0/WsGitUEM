@@ -52,12 +52,16 @@ podemos usar -> git checkout master
 paralelos a nuestro trabajo principal, sin necesidad de estropear los 
 cambios en el desarrollo principal. Por defecto git trabaja sobre la rama
 master, que sería la principal. Las ramas en git son punteros o referencias
-que apuntan al ultimo commit. Podemos entender los commit como los objetos
-en java (poo), los commits son los que guardan la información del estadod
-de nuestro repositorio. Son fotos
+que apuntan siempre al ultimo commit de la rama a la que pertenecen. 
+Podemos entender los commit como los objetos en java (poo), los commits 
+son los que guardan la información del estado de nuestro repositorio. 
+Podemos entenderlo tambien como fotos de nuestro repositorio.
 Podemos crear ramas con el comando -> git checkout -b nombre_rama
 
 12) podemos ver las ramas que tenemos con -> git branch
+
+	12.1)Podemos empezar a hacer desarrollos y commits sobre la rama
+	actual en la que hemos creado
 
 13) podemos fusionar ramas ýendonos a la rama donde queremos hacer la
 fusion con el comando -> git merge rama_a_fusionar
