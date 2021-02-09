@@ -7,6 +7,8 @@ nuestras versiones de nuestro workspace.
 En caso de que queramos borrarlo, simplemente borrar la carpeta
 
 2) para add ficheros al stage -> git add nombre_fichero
+	2.1) Para quitar ficheros del stage podemos usar el comando
+		-> git restore --staged NOMBRE_FICHERO
 
 3) para ver el estado de nuestro git podemos usar el comando -> git status
 
@@ -61,7 +63,8 @@ Podemos crear ramas con el comando -> git checkout -b nombre_rama
 12) podemos ver las ramas que tenemos con -> git branch
 
 	12.1)Podemos empezar a hacer desarrollos y commits sobre la rama
-	actual en la que hemos creado
+	actual en la que hemos creado. Siempre que hagamos un commit avanza
+	el puntero de la rama con la que estamos trabajando y el puntero HEAD
 
 13) podemos fusionar ramas ýendonos a la rama donde queremos hacer la
 fusion con el comando -> git merge rama_a_fusionar
