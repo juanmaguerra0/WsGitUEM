@@ -10,3 +10,5 @@ cebolla
 pepino
 rabano
 zanahoria
+coliflor
+berenjena
