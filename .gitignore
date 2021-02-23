@@ -1,0 +1,13 @@
+#podemos poner comentarios en el .gitignore con "#"
+#Los nombres de los ficheros que pongamos dentro de este ficheros
+#seran ignorados. Tambien podemos poner carpetas
+
+ficheroIgnorado.txt
+
+# podemos usar patrones
+# ignoramos todos los .class de nuestro proyecto
+*.class
+
+# Os recomiendo echar un vistazo (o copiar directamente) un 
+# .gitignore de un repositorio mio de java
+# https://github.com/fdepablo/WorkspaceJava/blob/master/.gitignore

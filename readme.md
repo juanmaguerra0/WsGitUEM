@@ -73,6 +73,9 @@ por ejemplo, podemos ir a master y ejecutar git merge videojuegos
 Cuando fusionarmos ramas puede haber conflictos en caso de que varias 
 personas hayan estado trabajando con los mismos ficheros.
 
+	13.1) Para ver de manera grafica las ramas y los commits podemos
+	ejecutar -> git log --graph --abbrev-commit --decorate --all
+
 14) para borrar una rama (es  un puntero o una referencia) se ejecuta
 el comando -> git branch -d nombre_rama
 
@@ -95,7 +98,9 @@ se quedan (puede ser todo!) y a continacion hacer un nuevo commmit
 
 19) Si en algun caso no queremos versionar algun o algunos de los ficheros
 que tenemos en un workspace podemos crear un fichero ".gitignore" y poner
-ahi todos los ficheros que no quiero versionar.
+ahi todos los ficheros que no quiero versionar. Este fichero va en el
+directorio raiz de nuestro espacio de trabajo, y en principio, solo habra
+1 fichero .gitignore
 Ejemplo de ".gitignore" de ignarar archivos de entorno de eclipse que no
 tiene sentido compartir con otros compañeros de equipo (o nosotros):
 https://github.com/fdepablo/WorkspaceJava/blob/master/.gitignore
