@@ -134,9 +134,13 @@ EJ: git clone https://github.com/fdepablo/WsEntornosDesarrolloTelefonica.git
 23) Si queremos descarganos la ultima version (commits) del repositorio
 podemos ejecutar el comando -> git pull.
 
-24) Nadie podra trabajar con vuestro ws (es decir, hacer commits, pero si
+	23.1) OJO! en caso de que cambiemos un repositorio clonado, si hacemos
+	un pull puede que no nos lo haga porque tengamos primero que haceru
+	un commit sobre nuestro cambios, y luego resolver los posibles conflictos
+
+24) Nadie podra trabajar con nuestro ws (es decir, hacer commits, pero si
 clones o pulls) a no ser que le demos permiso. Para ello hay que ir 
-a la parte de settings del workspace y add el usuario en "manage access".
+a la parte de "settings" del workspace y add el usuario en "manage access".
 
 25) Una de las mejores maneras de trabajar en un entorno colaborativo podría
 ser que cada integrante trabaje sobre una rama propia, e ir fusionando sus
@@ -147,26 +151,27 @@ cambios con la rama master. Podriamos hacer los siguientes pasos:
 	Ej: Hace los cambios y luego hace los commits que hagan falta
 	git add .
 	git commit -m "descripcion del cambio"
-	3) Una vez que haya acabado de hacer el desarrolo y los commits con suç
+	3) Una vez que haya acabado de hacer el desarrolo y los commits con su
 	rama, nos cambiamos a la rama master, y ahi nos bajamos los posibles
 	cambios que hayan hecho los demas integrantes del equipo.
 	Ej: git checkout master
-	git pull 
+		git pull 
 	4) Fusionamos la rama master con nuestra rama particular para hacer
 	un merge de los cambios
 	Ej: git merge felix_desarrollo
-	5) Fusinar los cambios de la rama master con la rama nuestra de 
-	desarrollo, para poder continuar luego con nuestros desarrollos
+	5) Solucionar los posibles conflictos.
+	6) Subir los cambios al repositorio remoto
+	Ej: git push origin master
+	7) Si queremos continuar con los desarrollos de nuestra rama, debemos de
+	fusinar los cambios de la rama master con la rama nuestra de 
+	desarrollo.
 	Ej: git checkout felix_desarrollo
-	git merge master
-	6) Cambiar al master y subir los cambios al repositorio remoto
-	Ej: git checkout master
-	git push origin master
-	7) Optativo, podriamos subir nuestra rama a origin para que la viesen
+		git merge master
+	8) Optativo, podriamos subir nuestra rama a origin para que la viesen
 	otros integrantes del equipo. 
 	Ej: git push origin felix_desarrollo
 
-26) Otra manera de trabar colaborativamente, es hacer un "fork" desde 
+26) Otra manera de trabajar colaborativamente, es hacer un "fork" desde 
 github a otro repositorio remoto para hacernos una copia exacta del 
 repositorio al que estamos haciendo "fork", a partir de aqui nosotros
 podremos desarrollar en nuestro repositorio los cambios que queramos.
