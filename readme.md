@@ -107,8 +107,8 @@ https://github.com/fdepablo/WorkspaceJava/blob/master/.gitignore
 
 20) Para trabajar en un entorno colaborativo debemos de usar un repositorio
 remoto, por ejemplo Github. Debemos de crear una cuenta y a continuacion
-un workspace. Una vez creado el repositorio en github, nos da una serie
-de instrucines para contectarlo con un repositorio local:
+un repositorio. Una vez creado el repositorio en github, nos da una serie
+de instrucciones para unirlo con un repositorio local:
 Ej: git remote add origin https://github.com/fdepablo/WsEntornosDesarrolloTelefonica.git
 remote add -> comando para decir a git que queremos contectarnos a un 
 	repositorio remoto
