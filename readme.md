@@ -122,7 +122,8 @@ push -> subida al repo remoto
 origin -> el nombre del repo remoto donde lo subimos
 master -> nombre de la rama que queremos subir 
 -u -> recordatorio de que siempre que hagamos un push, por defecto sea
-de origin a master
+de master a origin. Es decir, a partir de este momento, todos los "git push"
+que haga seran automáticamente de la rama "master" al repositorio "origin"
 
 22) una vez subido al repo remoto podemos empezar a trabajar con otros 
 compañeros (o incluso con nostros en diferentes ordenadores).
